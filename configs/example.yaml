@@ -1,0 +1,11 @@
+# Providers to benchmark. Each entry maps to build_provider() in harness/run.py.
+providers:
+  - type: whisper
+    model: small
+  - type: whisper
+    model: large-v3
+  - type: deepgram
+    model: nova-2
+  - type: assemblyai
+    model: best
+  - type: granite        # local model, ~4GB download, much faster with a GPU

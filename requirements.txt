@@ -1,0 +1,18 @@
+# Core harness
+pyyaml
+pandas
+tqdm
+requests
+numpy
+soundfile
+datasets                # AMI download (scripts/build_ami_manifest.py)
+
+# Local models
+faster-whisper          # Whisper Small / Large-v3
+torch
+torchaudio
+transformers            # IBM Granite 4.0 1B Speech
+pyannote.audio>=4.0     # speaker diarization
+
+# Scoring
+jiwer                   # WER / CER
